@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "queue_link.h"
 
  typedef  struct Qnode
 {
@@ -50,7 +51,7 @@ int DeQueue( int *e)
     return 1;
 }
 
-int main()
+int queue_link_main()
 {
     int a = 11;
 	int c = 12;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "queue.h"
+#include "queue_array.h"
 
 static int Q[QUEUE_SIZE]={0};
 static int front = 0;
@@ -30,7 +30,7 @@ int dequeue(void)
 	return temp;
 }
 
-int main()
+int queue_array_main()
 {
 	int i = 0;
 	while (enqueue(i++));
